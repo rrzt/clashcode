@@ -1,0 +1,251 @@
+proxies:
+- name: 美国2
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 美国2|@ripaojiedian
+  network: tcp
+  password: 230012981ba34c12fec11deca0379005
+  port: 49277
+  server: 54.46.30.217
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 22657
+  server: 16.163.142.40
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|2.3MB/s
+  network: ws
+  port: '443'
+  server: fast.cd-tur4.ir
+  servername: default.ssl.fastly.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
+  ws-opts:
+    headers:
+      Host: newip.global.ssl.fastly.neT.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_2|1.7MB/s
+  network: ws
+  port: '443'
+  server: rvg-production-b337.up.railway.app
+  servername: rvg-production-b337.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3195e102-c157-eed6-eaa5-13ae596360e2
+  ws-opts:
+    headers:
+      Host: rvg-production-b337.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /ws/3195e102-c157-eed6-eaa5-13ae596360e2
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_3|3.3MB/s
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: '58995'
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_4|2.9MB/s
+  network: ws
+  port: '443'
+  server: support.zoom.us
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 192bc523-26fe-4233-b10d-725deb710ea5
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /us-gllc
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_5|1.5MB/s
+  network: tcp
+  password: 63872b0d-87dd-4474-b690-92773af2922e
+  port: '42531'
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+  udp: true
+- encryption: none
+  name: 🇺🇸US_6|3.4MB/s
+  network: xhttp
+  port: 80
+  server: wst.imsoon.net
+  type: vless
+  udp: true
+  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
+  xhttp-opts:
+    host: play.google.com
+    mode: auto
+    path: /SoonTeam
+    x-padding-bytes: 100-1000
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_7|2.6MB/s
+  network: xhttp
+  port: 80
+  server: 76.13.121.90
+  type: vless
+  udp: true
+  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
+  xhttp-opts:
+    host: play.google.com
+    mode: auto
+    path: /SoonTeam
+    x-padding-bytes: 100-1000
+  xudp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_8|2.3MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: 🇺🇸US_9|1.3MB/s
+  network: tcp
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 50888
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+- name: 🇺🇸US_10|1.1MB/s
+  network: tcp
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 13320
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_11|2.0MB/s
+  network: ws
+  password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
+  port: '443'
+  server: h2.bnm.uw.to
+  skip-cert-verify: false
+  sni: h2.bnm.uw.to
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /0cb2739d-98b8-45ce-b52c-4305c40975a6-tr
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US_speednode_0055
+  port: 14005
+  reality-opts:
+    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
+    short-id: '!!str 97a01dfaef'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US_speednode_0056
+  port: 443
+  reality-opts:
+    public-key: JlcNtRODuC4k8GhBFuXwjps9cRe3asq453_RLd3o9E8
+    short-id: '!!str e9e3098b62530266'
+  server: 38.244.20.69
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 057f3c26-0fe7-4315-aabc-90c79d413d70
+- name: US_speednode_0058
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 443
+  server: e760451b-ta1og0-tan99f-1rdqg.jp.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+- name: US_speednode_0059
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 443
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: US_speednode_0060
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 443
+  server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- name: US_speednode_0061
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 443
+  server: 786f666d-t9zts0-tatrrz-yjq0.sjc.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- name: US_speednode_0062
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 443
+  server: d6a15dd2-tegxs0-tejxhc-1rdqg.se.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+- name: US_speednode_0063
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: www.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn
