@@ -25,17 +25,9 @@ proxies:
 - name: 8|SG_@WangCai_8
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 13.229.51.19
+  server: 47.129.160.62
   skip-cert-verify: true
   sni: https://t.me/WangCai2
-  tls: false
-  type: hysteria2
-- name: 8|🇸🇬SG_@WangCai_8
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 54.179.149.169
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
 - name: 8|DE
@@ -79,7 +71,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|FI-@VPNine1
+- name: 9|⛳86@oneclickvpnkeys
   password: 00dcd873-9211-4d61-ad35-87999906e5c8
   port: 443
   server: 185.75.135.220
@@ -108,15 +100,6 @@ proxies:
   server: 2.26.49.16
   skip-cert-verify: false
   sni: social.klipp.su
-  tls: false
-  type: hysteria2
-- name: 9|💙95@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: lhfl2z9mjngb7csh
-  password: 653m8mmiy7048p0f
-  port: 1935
-  server: nrealistic.nn-foto.ru
-  sni: nrealistic.nn-foto.ru
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -224,14 +207,12 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: 9|@filembad
-  obfs: salamander
-  obfs-password: 60wvbymjlc9zw3gk
-  password: zru63dr6vokx56iy
-  port: 52067
-  server: tr-1.metsima.com
-  skip-cert-verify: false
-  sni: tr-1.metsima.com
+- name: 9|🇩🇪@V2raybazi
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: https://www.calmloud.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
